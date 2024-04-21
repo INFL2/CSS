@@ -1,0 +1,28 @@
+/* 
+body {
+  /*background-color: #d1cf13;
+  color: yellow;
+  background-image: url('https://kartinki.pibig.info/uploads/posts/2023-08/1692335732_kartinki-pibig-info-p-drakon-i-ritsar-kartinki-krasivo-47.jpg');
+  background-repeat: no-repeat;
+  background-position: center;*/
+
+  /*Более легкий формат*/
+ /* color: black;
+  background: #840f0f url('https://kartinki.pibig.info/uploads/posts/2023-08/1692335732_kartinki-pibig-info-p-drakon-i-ritsar-kartinki-krasivo-47.jpg') no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
+
+
+#first {
+  
+  color: black;
+  background: #840f0f url('https://kartinki.pibig.info/uploads/posts/2023-08/1692335732_kartinki-pibig-info-p-drakon-i-ritsar-kartinki-krasivo-47.jpg') no-repeat center center;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#second {
+  height: 2000px;
+}

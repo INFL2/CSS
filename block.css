@@ -1,0 +1,49 @@
+/* (*) - обращаемся ко всем объектам*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#block {
+  background: orange;
+  height: 200px;
+  width: 200px;
+  /*Обводка. solid - не прерывистая; dotted - прерывистая */
+  border: 7px solid silver;
+  border-bottom: 0;
+  border-top-style: solid;
+  border-style: double;
+
+/*скругление углов*/
+  border-radius: 15px 50%;
+  /*прозрачность*/
+  opacity: 0.9;
+  /*внешние и внут отступы*/
+  margin: 20px 50px;
+  padding: 20px;
+}
+
+
+
+/* Со строчными также не выйдет, но есть display block*/
+.block {
+  background: orange;
+  height: 200px;
+  width: 200px;
+  /*Обводка. solid - не прерывистая; dotted - прерывистая */
+  border: 7px solid silver;
+  border-bottom: 0;
+  border-top-style: solid;
+  border-style: double;
+
+/*скругление углов*/
+  border-radius: 15px 50%;
+  /*прозрачность*/
+  opacity: 0.9;
+  /*внешние и внут отступы*/
+  margin: 20px 50px;
+  padding: 20px;
+  display: block;
+}
+

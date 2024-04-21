@@ -1,0 +1,59 @@
+.main-link {
+  color: red;
+  text-decoration: underline;
+}
+
+.main-link:hover {
+  color: blue;
+  text-decoration: overline;
+  text-decoration-color: black;
+  cursor: pointer;
+}
+
+.main-lox:active {
+  text-decoration: line-through;
+}
+
+.main-lox:visited {
+  text-decoration: line-through;
+  color: gray;
+}
+
+input {
+  color: blue;
+}
+input:focus {
+  color: red;
+}
+input:required {
+  color: beige;
+}
+
+p.text:empty {
+  color: beige;
+}
+p.text:not(:empty) {
+  color: midnightblue;
+}
+
+#some::before {
+  color: rebeccapurple;
+  content: "5465451";
+}
+
+p.text:not(:empty)::after {
+  content: attr(title);
+}
+
+p.main-lox::first-line{
+  color: greenyellow;
+}
+
+p:first-of-type {
+  text-decoration: line-through;
+}
+
+p:last-of-type {
+  color: grey;
+  text-decoration:underline;
+}

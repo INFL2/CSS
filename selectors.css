@@ -1,0 +1,18 @@
+b {
+  color: aquamarine;
+}
+.main-text {
+  color: brown;
+}
+#textppp {
+  color: aqua;
+}
+#text-p {
+  color: red;
+}
+div b, i {
+  color: green;
+}
+/*div, #text-p, .name-class {
+  color: fuchsia;
+}*/
